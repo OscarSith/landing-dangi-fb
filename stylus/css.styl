@@ -1,0 +1,124 @@
+@import "normalize.styl"
+@import "../css/main.css"
+
+// Colores
+color_blanco = #fff
+gris_oscuro = #333
+gris_claro = #ccc
+
+body
+	background url('../img/bg-body.jpg') no-repeat center top
+.main
+	width 1000px
+	margin 0 auto
+header
+	height 125px
+	h1
+		color color_blanco
+		float left
+		font-size 4em
+		font-weight normal
+		margin 1.8rem 0 0
+		text-align center
+		line-height 2rem
+		.main-title
+			text-shadow 1px 1px 1px gris_oscuro
+			display block
+		.sub-title
+			font-size .23em
+	img
+		float right 
+		margin-top .5em
+section
+	background url('../img/bg-form.png') no-repeat 494px bottom
+	position relative
+form
+	padding 14px
+	position absolute
+	right 217px
+	top 168px
+	width 182px
+	.form-title
+		text-align right
+		h3
+			color color_blanco
+			letter-spacing -2px
+			margin-bottom 0
+			margin-top 0
+		strong
+			color gris_oscuro
+			display block
+			font-size .7em
+			line-height 1
+	.fields
+		margin-top .7em
+		input[type=text]
+			border-color gris_claro
+			border-width 1px
+			box-sizing border-box
+			margin-bottom .5em
+			padding .3em
+			width 100%
+		textarea
+			box-sizing border-box
+			height 74px
+			width 100%
+	#btn-send
+		background-color transparent
+		border none
+		color color_blanco
+		margin 0 auto
+		display block
+		margin-top .7em
+#youtube
+	background-color blue
+	height 180px
+	margin-left 4.5em
+	width 328px
+#services
+	margin-top 6em
+	h2
+		color color_blanco
+		font-size 2.5rem
+		font-weight normal
+	ul
+		list-style-type none
+		overflow hidden
+		padding-left 0
+		width 60%
+		li
+			float left
+			margin .2em .3em 3em 0
+			width 104px
+			div
+				background-image url('../img/icons.png')
+				background-repeat no-repeat
+				height 66px
+				margin 0 auto
+				width 66px
+			span
+				color color_blanco
+				display block
+				font-size .71em
+				margin-top .5em
+				text-align center
+#service-design
+	background-position -6px -3px
+#service-app
+	background-position -87px -3px
+#service-web
+	background-position -170px -3px
+#service-adwords
+	background-position -251px -3px
+#service-social
+	background-position -332px -3px
+#service-email
+	background-position -412px -3px
+#service-seo
+	background-position -490px -3px
+#service-fb-ads
+	background-position -571px -3px
+#service-campaign
+	background-position -650px -3px
+.fix-icon-services
+	clear left
